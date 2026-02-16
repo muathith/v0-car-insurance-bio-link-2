@@ -8,15 +8,22 @@ const cairo = Cairo({ subsets: ['arabic', 'latin'], variable: '--font-cairo' })
 export const metadata: Metadata = {
   title: 'تأمينات السيارات | حماية شاملة لسيارتك',
   description:
-    'احصل على أفضل عروض تأمين السيارات بأسعار تنافسية. تأمين شامل، تأمين ضد الغير، ومساعدة على الطريق.',
-  keywords: 'تأمين سيارات, تأمين شامل, تأمين ضد الغير, تأمين مركبات',
+    'احصل على أفضل عروض تأمين السيارات بأسعار تنافسية. تأمين شامل، تأمين ضد الغير، ومساعدة على الطريق. شركات معتمدة وإصدار فوري.',
+  keywords: 'تأمين سيارات, تأمين شامل, تأمين ضد الغير, تأمين مركبات, تأمين أونلاين',
+  robots: 'index, follow',
+  openGraph: {
+    title: 'تأمينات السيارات | حماية شاملة لسيارتك',
+    description: 'احصل على أفضل عروض تأمين السيارات بأسعار تنافسية. تأمين شامل، تأمين ضد الغير، ومساعدة على الطريق.',
+    type: 'website',
+    locale: 'ar_SA',
+  },
 }
 
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 1,
-  themeColor: '#2563EB',
+  themeColor: '#1a6cc4',
 }
 
 export default function RootLayout({

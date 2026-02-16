@@ -28,9 +28,9 @@ export function BioFeatures() {
         {features.map((feature) => (
           <div
             key={feature.title}
-            className="flex flex-col items-center rounded-lg bg-card border border-border p-4 text-center"
+            className="flex flex-col items-center rounded-xl bg-card border border-border p-4 text-center"
           >
-            <div className="flex items-center justify-center w-10 h-10 rounded-full bg-accent/15 mb-2">
+            <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-accent/12 mb-2">
               <feature.icon className="w-5 h-5 text-accent" />
             </div>
             <p className="font-semibold text-sm text-card-foreground leading-snug">

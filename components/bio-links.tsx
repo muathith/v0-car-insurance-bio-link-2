@@ -56,9 +56,9 @@ export function BioLinks() {
           <a
             key={link.title}
             href={link.href}
-            className="flex items-center gap-4 rounded-lg bg-card p-4 border border-border shadow-sm transition-all duration-200 hover:shadow-md hover:border-primary/30 active:scale-[0.98] min-h-[60px]"
+            className="flex items-center gap-4 rounded-xl bg-card p-4 border border-border shadow-sm transition-all duration-200 hover:shadow-md hover:border-primary/25 active:scale-[0.98] min-h-[64px]"
           >
-            <div className="flex items-center justify-center w-11 h-11 shrink-0 rounded-lg bg-primary/10">
+            <div className="flex items-center justify-center w-11 h-11 shrink-0 rounded-xl bg-primary/8">
               <link.icon className="w-5 h-5 text-primary" />
             </div>
             <div className="flex-1 min-w-0">
