@@ -1,8 +1,8 @@
-import { BioHeader } from "@/components/bio-header"
-import { BioLinks } from "@/components/bio-links"
-import { BioFeatures } from "@/components/bio-features"
-import { BioFooter } from "@/components/bio-footer"
-import { CookieConsent } from "@/components/cookie-consent"
+import { BioHeader } from "@/components/bio-header";
+import { BioLinks } from "@/components/bio-links";
+import { BioFeatures } from "@/components/bio-features";
+import { BioFooter } from "@/components/bio-footer";
+import { CookieConsent } from "@/components/cookie-consent";
 
 export default function Page() {
   return (
@@ -17,12 +17,11 @@ export default function Page() {
         aria-hidden="true"
       />
       <div className="relative z-10 flex flex-col min-h-screen">
-        <BioHeader />
         <BioLinks />
         <BioFeatures />
         <BioFooter />
       </div>
       <CookieConsent />
     </main>
-  )
+  );
 }
